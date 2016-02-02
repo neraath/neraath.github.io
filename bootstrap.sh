@@ -9,7 +9,7 @@ then
 else
     touch $PROV_FILE
 
-    sudo apt-get install -y git make
+    sudo apt-get install -y git make g++ vim
 
     git clone https://github.com/sstephenson/rbenv.git $HOME/.rbenv
 
@@ -26,5 +26,6 @@ else
     #own rbenv as the vagrant user
     sudo chown -Rf vagrant $HOME/.rbenv
 
-    gem install jekyll jekyll-tagging jekyll-paginate redcarpt
+    gem install jekyll bundler jekyll-tagging jekyll-paginate redcarpet
+    bundle install
 fi
