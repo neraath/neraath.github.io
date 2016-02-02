@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Chris Weldon
 locale:           en_US
 url:
 
@@ -41,13 +41,13 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Chris Weldon
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  bio: "A savvy software engineer and agilist, Chris slings code in C#, but has also been known for commanding fleets of systems. He's currently a Vice President at Goldman Sachs."
+  email: chris@chrisweldon.net
+  disqus-shortname: neraath
+  twitter: neraath
+  facebook: neraath
   google:
     plus: #username
     analytics:
@@ -55,7 +55,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: neraath
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
