@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "The writings and rants of software engineer Chris Weldon."
+tags: [blog, chris, weldon, software, engineer, agile, sharepoint, c#]
 image:
   feature: sample-image-1.jpg
   credit: WeGraphics
