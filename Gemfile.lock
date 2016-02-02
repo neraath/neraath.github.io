@@ -64,6 +64,7 @@ DEPENDENCIES
   jekyll (~> 3.0)
   jekyll-gist
   jekyll-sitemap
+  jekyll-watch
   octopress
 
 BUNDLED WITH
