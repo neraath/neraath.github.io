@@ -1,0 +1,26 @@
+---
+comments: true
+date: '2006-07-27 19:47:37'
+layout: post
+slug: oscon-day-2
+status: publish
+title: OSCON - Day 2
+wordpress_id: '22'
+categories:
+- events
+- software development
+tags:
+- linux
+- php
+- code
+- sql
+- portland
+- oregon
+- oscon
+---
+
+Day 2 of OSCON training was rather sluggish and disappointing. There were several things that I found out that I already knew, but many things I wasn't expecting from one of the talks, the High Performance PHP. Going into this, I was expecting to see some code examples and talks about certain functions or stylistic coding techniques that would result in improved PHP code. This was definitely not the case, as the majority of the talk was about improving applications that run PHP, or co-exist with PHP. There were also other things to avoid (such as SOAP, but for obvious reasons), but hardly any talks about how to improve your code to improve it's performance. 
+
+The one thing I did learn through this tutorial was how to go through and trace the code, and use things like <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi">kcachegrind</a> to make graphs and help you figure out where the slow parts of your code are laying. Percentage breakdowns of the time spent inside certain functions, classes, and objects help to show where your code is "slow". I plan on using this on my many different projects, just as soon as I figure out how to use the damn program. 
+
+The Security tutorial was also nice, but at the same time going over many of the things I learned in my online PHP training that <a href="http://www.preinheimer.com">Paul Reinheimer</a> gave last month. 

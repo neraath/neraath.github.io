@@ -1,0 +1,40 @@
+---
+comments: true
+date: '2006-07-06 11:38:29'
+layout: post
+slug: driving
+status: publish
+title: Driving
+wordpress_id: '14'
+categories:
+- personal
+tags:
+- driving
+- transportation
+---
+
+So, today I feel like delving into one of the most overtalked topics around - poor driving. 
+
+So, people have been driving cars for over a century now. I say that the inventor of the motor vehicle (Mr. Ford and his wonderful engineers) should give themselves a pat-on-the-back for coming up with one of the most dangerous inventions this planet has seen to date. Why do I call these vehicles dangerous? The reason is seen (and heard) everywhere. If you drive in Houston and listen to a major radio station either in the morning (during the drive to work) or the evening (during the drive from work), you'll typically hear traffic reports as far as what highway is backed up for such and such reason. Well, if you really ever pay attention to them, then you'll notice that there is hardly ever a traffic report without an accident involved in it. Whether it involves a jacknived rig, a fender bender, or a 20-car pile-up, accidents happen - <strong>a lot</strong>.
+
+Typically, these accidents result in minor to sub-major injuries. Only occassionally will you hear that the accident involved fatalities. This, is a relief. However, it still does happen. In fact, in 2004 alone, 38,253 accidents where fatal. In addition, 1.86 million people were injured, and 4.28 million other accidents occured! 4.28 million! Knowing the frequency of these accidents is rather unnerving knowing that you are on the road with the same careless (or inexperienced) drivers that are causing these wrecks.
+
+So, if we have such horrible accidents with such frequency, how do we solve this? At this point, we can't stop current drivers from being any better. But, we can try to shape the future by trying to do a better job of training drivers and giving harsher penalties for those involved in accidents. As strict as it may sound, it's the truth. Why? First: Loss of life is very tragic, and when it happens 38,000+ times a year in vehicles, that's absurd. Second: removing bad drivers from the road, or at least training drivers to be better at what they do might help save $230 billion a year. That's right, accidents in 2000 resulted in damages of about $230 billion. Third: I've heard of friends who have gone through 4 cars in about 4 years because of accidents they have had. 4 cars in 4 years! I'll be lucky enough to buy myself a new car by the time I graduate in 2 years! 4 accidents in 4 years shows something: the person is an inadequate driver and should be either removed from the road or required to pay a harsh penalty out of their own pocket. Unfortunately, this doesn't always work, as these penalties hardly ever motivate someone to never do it again (come on, look at your local judicial system's website and search for drug offenders and look at how often there are repeat offenders). 
+
+Finally, although I love older people and think that most of them are the sweetest people on the face of the planet, I don't think the majority of them should be driving. I can't count the number of times I've been on the road behind an elderly driver who was doing at least 20 miles under the speed limit. Sure, this might be safer, but it incites road rage and definitely inconveniences other drivers if there's no way to pass this person. Case and point, however, is when these older people are unable to pay attention to what's going on around them, much less be able to drive this big massive vehicle properly. This morning, on the way to work, I was driving behind an elderly woman who was going 10 miles under the speed limit. She was swerving in her lane, which is a big no-no when driving. Then, when we finally made the turn to get on the feeder road, she turned into the right lane (slowly, might I add), and I got in the left lane. My goal was to get onto the highway. This woman definitely looked like she was staying on the feeder road. However, no sooner than I get halfway along side her car, she begins swerving over into my lane (no warning blinker either - she never used a blinker once). I honk my horn and use what little evasive maneuvers that I could to avoid getting in an accident. She paid heed to my horn and remained in her lane. Nevertheless, it's people like that who should remain off the road - for good. 
+
+<!--more-->
+The only other option I think should be considered (and honestly is a much more viable option then trying to enforce rules - cause we see what happens with new rules and laws that are attempted to be enforced - including things like prohibition, drugs, etc) is improving public transportation - by a LOT. Public transportation in many cities typically lacks so much that it's almost pointless. Lets look at Japan, for example. Their public transportation system seems to be the best in the world - by a long margin. Their transportation is almost always on-time and the majority of Japanese use it as opposed to having their own car. It's the prefered way to get around. And because their public transportation systems go to all the different areas of major cities, its very easy for you to walk a short distance to reach an entry point. 
+
+This is the type of setup more US cities need. Let's look back at Houston (I know - I'm biased). Houston's newest addition to their public transportation includes their light-rail system. But here's the problem with it - it only goes out to the farthest edges of downtown Houston. This helps nobody who lives as far out as The Woodlands. I can almost guarantee that if there was a public transportation system (not via the crappy buses that Houston already has) that guaranteed on-time delivery of persons from the outskirts of The Woodlands (and places like Katy and possibly even Galveston) to downtown Houston, there would be so many less drivers on the road. But the problem is integration. To be able to build a rail system that far out, after the majority of that surrounding area is already built-upon would reak havok for many people and businesses. However, if businesses, government, and people would actually understand the true benefits of such a system, they would truly be for it.
+
+What benefits you ask? If most major cities (and some smaller cities, such as College Station and Bryan) would spend the money to build an electric train system that went to many different areas of the town (of course this is assumed they do it correctly, and not just pushing it out to the most populated areas and not putting up stops along the way):
+
+ - More people would use it reducing the emissions caused by vehicles. This helps the environment and is a good thing!
+ - Vehicles would be purchased less often resulting in more money being spent elsewhere (and less debt because less loans would be obtained). 
+ - Vehicles would be purchased at a lesser frequency because they would not be reaching end-of-life nearly as quickly because of less driving. 
+ - People would spend less money on gasoline, this driving those big corporations who make billions of dollars in PROFITS into the ground. :-)
+
+Anywho, enough ranting. 
+
+Statistics courtesy of <a href="http://www-fars.nhtsa.dot.gov/">Fatality Analysis Reporting System</a>, <a href="http://www-nrd.nhtsa.dot.gov/pdf/nrd-30/NCSA/TSFAnn/TSF2004.pdf">Traffic Safety Facts 2004</a> and the <a href="http://www.dot.gov">Department of Transportation</a>.

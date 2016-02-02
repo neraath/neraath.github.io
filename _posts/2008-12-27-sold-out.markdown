@@ -1,0 +1,16 @@
+---
+comments: true
+date: '2008-12-27 02:55:46'
+layout: post
+slug: sold-out
+status: publish
+title: Sold Out
+wordpress_id: '132'
+categories:
+- personal
+tags:
+- advertisements
+- google
+---
+
+Yea, I've officially sold out to advertisements. Sadly, desperate times call for desperate measures. Now, I can't officially ask people to click on my ads, but what I would like is for people to let me know what they think of the placement of my ads. I've always been a proponent of advertisements that are present and noticeable, but not "in-the-way". So, for my regulars (and the occasional visitor that drops by), please leave a comment and let me know what you think. Thanks in advance!

@@ -1,0 +1,21 @@
+---
+comments: true
+date: '2006-06-28 10:17:46'
+layout: post
+slug: toms-here
+status: publish
+title: Tom's Here!
+wordpress_id: '10'
+categories:
+- personal
+---
+
+Well, Tom is finally here. Last night was his first night in our apartment and from what I can tell he enjoyed the futon we bought him. When we picked him up yesterday (which was 20 minutes earlier than his flight was supposed to get in - go American Airlines!), we went to eat at The Hobbit Cafe. They are a truly awesome place in downtown Houston and I recommend anyone go down to check them out. As you might imagine they are based on the Lord of the Rings, which is truly awesome. There's only one other place I know kinda like that called Rivendell in San Marcos, but they definitely don't serve the same things as The Hobbit Cafe. Rivendell is more like a bakery than anything.
+
+Anywho, afterwards we headed home, only to stop at Main Event - a gigantic place filled with Bowling, Pool, poker, arcades and lastertag. They had some cool arcade games, but it was too loud for me - I got a headache after being in there for about 30 minutes. The games were also too expensive - I like Mr. Gatti's games for a quarter - that's the way it was MEANT to be. :-P
+
+I fell asleep in the car, but at least it was only for 30-45 minutes. It nevertheless caused me great grief when I was trying to go to bed later on in the evening.
+
+Tom's back at home and later tonight we'll begin our usual working madness - I'll be playing with the new VoIP phones that I got in (though I have to wait for the router that will let it work on the internet) and coding the shopping cart that I need to do for a couple of our clients. 
+
+Anywho, cya later. 

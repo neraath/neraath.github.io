@@ -1,0 +1,56 @@
+---
+layout: post
+title: "Communication Brevity"
+date: 2013-11-26 18:50
+description: "Enterprise social technology is all the buzz these days. Here's some ideas on how to make it successful."
+keywords: "sharepoint,enterprise,social,brevity,communication,email,technology"
+comments: true
+external-url: 
+categories: 
+- systems administration
+tags:
+- sharepoint
+- enterprise
+- social
+- brevity
+- communication
+- email
+- technology
+---
+
+Let's talk about something I really don't like: e-mail. Let me clarify this by saying I _loathe_ e-mails on **team** projects. Why? Persistence. Conversations via e-mail have this perception they will be "found" at a later time, but the proposed value is rarely so useful. Furthermore, new team members or collaborators *rarely* ever get that context, because it's buried in **another** person's e-mail. This is my approach to how teams should communicate to ensure longevity of this critically important information.
+<!--more-->
+I'm a huge fan of the [e-mail brevity challenge](http://blogs.atlassian.com/2009/01/2009_email_brev/). The idea is simple: keep your e-mails short. 140 characters short. What this limits you to do is **huge**. Do you think you can have technical design discussions with 140 characters? What about researching technical support problems? How about product feature ideas? Clarifying how your team came to the conclusion to disable a feature due to security constraints? You might be able to do this in a bunch of 140 character e-mails, but that's hardly a good use of time. 
+
+The Problem
+===========
+For those examples I listed above, how important is it to your team to find that information now or three years from now? Let's face it - most teams undergo turnover at some point and with some degree of variability. Those whom are left find themselves struggling to find the context - the _why_ - beind a particular decision. This becomes more evident the longer time passes since a decision was made. 
+
+We have this problem now. I am considering simplifying a system we have currently. Yet, I can't find any context to understand why the system is currently so complex. Everyone agrees there **should** be a reason, but nobody knows _why_ that reason is. The **how** of the system was perfectly documented, but the _why_ was not. If current (and former) history are any sign, it's likely the conversation of _why_ has been lost somewhere along the way.
+
+The Solution
+============
+As previously indicated, expressing yourself via e-mail in 140 characters or less is hard. You want to know what isn't hard to express under that constraint? A URL. 
+
+The solution to this problem is easy. If you shift your conversation online, its longevity or persistance is no longer tied to the life of someone's inbox. We have what we call a "posting" culture at the firm - a process to keep as many people who are directly involved or _may_ be involved informed about the progress of our work. However, doing so via e-mail is laborious, especially if you leave out a stakeholder. However, if the conversation is non-private, having that conversation on an online social platform enables those stakeholders to opt-in to your updates. They can sit on the sidelines watching the activity, or if they see something that requires their intervention, they can take charge and engage in the conversation.
+
+But what about private conversations? Most social platforms have the capability for engaging in private conversation. Whether this be through closed collaboration/team rooms or direct messages between you and another user. However, once decisions have been made, it becomes easy to promote the relevant pieces of those conversations from private to public - it's already online.
+
+Additional Benefits
+===================
+The problems of traditional e-mail go beyond simply lack of context. Many corporate e-mail platforms **still** don't provide metadata tagging. Searching for e-mail means you search conversations only _you_ were directly involved. Being able to keep track of the conversation thread is dismal with our tools - only a few e-mail clients (and only very recently) are able to present conversations in threaded views. Most people **still** don't know those features exist! Finally, collboration on documents still happens by shipping them via e-mail. Which is the authoritative _final_ version? Finally, what **was** the final decision of that chain of e-mails about how to proceed on our design?
+
+Moving the conversation online to social platforms opens up many other benefits. Tagging (primarily #tags, pronounced as hashtags) are in most platforms. For those not familiar, tagging content with certain keywords enables easier discoverability. When you search for relevant conversations using those keywords, the search engine considers tagged posts more relevant than posts having those words somewhere in the document. A human made the decision that keyword pertains to this conversation, rather than that word being used in a conversation about something completely different. Search is also enhanced as you're now searching all _open_ and **public** conversations, broadening your search potential. 
+
+Being able to follow conversations is much easier. Threaded views enable clear visibility and understanding of the flow of conversations. Furthermore, most social platforms (especially in the Q&A space) have options for marking something as a "correct" or "most helpful" answer. Leveraging these same features, even for team discussions accomplishes two things: 
+
+ * You know exactly which decision was made, even when the content indicating that a decision had been made was unclear.
+ * You have all of the conversation surrounding why that decision was made.
+
+Finally, when it comes to sharing and collaborating on content, like Word/Excel/PowerPoint documents, moving that online and providing a _single_ authoritative source for the document reduces confusion on which is the final version and the final copy.
+
+Give it a Try
+=============
+Don't wait. Force yourself into this model. It will be hard - you'll want to revert back to your old ways of typing lengthy e-mails and using distribution lists. When you find yourself writing even just **two** sentences in an e-mail: stop. Immediately move to your online space and continue. Don't be tempted to reply in e-mail to someone sending you the link to the topic thread they started online - keep the conversation where it originated! But move it online if it started in e-mail!
+
+While your team starts adopting this pattern of communication, you'll see some short-term gains (like discoverability, transparency, clarity of decisions, inclusion, etc.). However, this is all about the long-term gains your team will have. The more content you push online, the better it will be for your team when it comes to retaining critical information. It _will_ be worth it!

@@ -1,0 +1,30 @@
+---
+comments: true
+date: '2006-07-30 22:04:14'
+layout: post
+slug: oscon-day-3
+status: publish
+title: OSCON Day 3
+wordpress_id: '23'
+categories:
+- events
+- software development
+tags:
+- linux
+- php
+- code
+- sql
+- portland
+- oregon
+- oscon
+---
+
+Day 3 ended the tutorials and began the sessions - the events that the majority of people showed up for. Keystones also precluded the days events, and the first Keynotes were rather intriguing. I heard talks from one of the leads and founders of SixApart, the company responsible for such things as LiveJournal, etc. In addition, Mr. O'Reilly gave a talk on how opensource licenses are out of date. With lack of further explanation of why he believed this, there were many members of the audience (including the other Keynote speakers) who were questioning that statement.
+
+The sessions, left much to be desired. They were approximately 45 minutes each (some actually spanned an hour and a half - though those were rare). As such, 45 minutes hardly gave enough time to thoroughly explain the concepts being presented, but for some of the sessions it was just enough time. For example, the first session I attended was on how this developer used Ruby on Rails to create an MMO in about 45 minutes. The game, is called Unroll - found at <a href="http://llor.nu">llor.nu</a>. It's a rather simple game, but he explained the concepts behind the creation of his game, rather than explaining some of the methods he used - such as showing code examples, tips and tricks, etc. As such, I left with hardly an understanding of how to use Rails to create a game of my own, but his game is at least open source, so I can download the source code and figure out what I need to then.
+
+The other sessions, which included a combination of PHP, Ruby, and Rails were rather uninteresting for the most part. I took notes in some sessions, but many I'll have to find the slides in order to benefit from attending them. 
+
+However, despite how uninteresting some of these sessions were, I admit that I did take out a lot of ideas that I plan to integrate for my business and CIS. Such things include code caches, such as APC, using IDE's for development and then running traces on the code to further be able to determine where slow-downs in code occur. I also found a couple of other interesting software items people were using on Macs that I have found quite awesome.
+
+BTW, the Exhibit hall resulted in me getting lots of goodies. :-)

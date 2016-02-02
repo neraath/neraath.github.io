@@ -1,0 +1,24 @@
+---
+comments: true
+date: '2006-11-18 04:25:55'
+layout: post
+slug: ieee-lan-2006
+status: publish
+title: IEEE LAN 2006
+wordpress_id: '48'
+categories:
+- personal
+- events
+tags:
+- ieee
+---
+
+As I sit here administrating the CS: Source server during the 12th hour I've been working for the IEEE LAN, I feel multiple things. 
+
+<h2>Happiness</h2>
+
+A lot of people turned out for the event, and everyone seems to be having a good time. We already finished the Halo 2 tournament and gave out the prize. Now the CS: Source tournament is heavily underway and people seem to be enjoying themselves. It was a lot better than I had previously thought it was going to be because I was having numerous issues with getting the game server setup and running.
+
+<h2>PAIN</h2>
+
+My legs hurt. REALLY REALLY HURT. Lack of sleep plus helping to lug massive amounts of equipment around has caused extreme pain. 

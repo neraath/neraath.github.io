@@ -1,0 +1,30 @@
+---
+comments: true
+date: '2009-03-06 00:33:44'
+layout: post
+slug: breathes
+status: publish
+title: '*breathes*'
+wordpress_id: '149'
+categories:
+- personal
+---
+
+Wow, this semester has been far worse than I had expected. I feel like I've been constantly on-the-go...which has really been the truth of it. For the first night in a long time, I'm actually able to sit down and do what I want - not what I have to do. 
+<!--more-->
+Not to try to one-up everyone else's schedule, but this is my typical weekly schedule:
+
+<strong>Monday:</strong> 7:30AM - 6:30PM (Architecture) 7:00PM - 10:00PM (School)<br />
+<strong>Tuesday:</strong> 6:30AM - 7:00PM (Architecture) 7:30PM - 10:00PM (School)<br />
+<strong>Wednesday:</strong> 7:30AM - 7:00PM (Architecture) 7:30PM - 10:00PM (School)<br />
+<strong>Thursday:</strong> 6:30AM - 6:30PM (Architecture) 7:00PM - 10:00PM (School)<br />
+<strong>Friday:</strong> 8:00AM - 5:00PM (Cerberus)<br />
+<strong>Saturday:</strong> 8:00AM - 5:00PM (Cerberus)<br />
+
+So, in a nutshell, about 40 hours each week with the College of Architecture, 15-20 hours a week consulting with Cerberus, and then another 15-20 hours per week working on school projects. That's the other thing that I totally didn't expect this semester. I'm taking two classes this semester (CPSC 313 - Introduction to Computer Systems and CPSC 315 - Programming Studio). The Programming Studio has become a course of living hell. This was totally unexpected, considering everything in the course syllabus described (nearly) everything that I currently do in the College of Architecture and had done in CIS Customer Applications. In essence, it's an introductory software engineering course. The disappointing thing is that the professor was not willing to give me credit for the work that I do at the College of Architecture. 
+
+The project we just finished up was writing our own Database Management System from scratch in Java. So, combine the fact that I had to learn Java, and develop this application with 2 other people in just a month. Keep in mind this is something that's typically developed with a team of 20-200 developers over several months. Needless to say, the past month I had to spend an extra 45-55 hours on this project besides my usual school study time. 
+
+Introduction to Computer Systems has been an interesting course and is actually pushing the limits of my programming knowledge. I'm getting to learn how to thread applications, how to fork applications, and a lot of other cool programming techniques that will help me learn how to create my operating system in the Operating Systems course in the future. 
+
+Anywho, I've also been zoning out watching the good 'ole boob tube. I'll try to update sooner (more likely later). 
