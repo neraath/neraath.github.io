@@ -9,12 +9,13 @@ then
 else
     touch $PROV_FILE
 
+    sudo apt-get update
     sudo apt-get install -y git make g++ vim
 
-    git clone https://github.com/sstephenson/rbenv.git $HOME/.rbenv
+    git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
 
     # Install ruby-build
-    git clone https://github.com/sstephenson/ruby-build.git $HOME/.rbenv/plugins/ruby-build
+    git clone https://github.com/rbenv/ruby-build.git $HOME/.rbenv/plugins/ruby-build
 
     $HOME/.rbenv/bin/rbenv install 2.2.2
     $HOME/.rbenv/bin/rbenv global 2.2.2
@@ -27,5 +28,6 @@ else
     sudo chown -Rf vagrant $HOME/.rbenv
 
     gem install jekyll bundler jekyll-tagging jekyll-paginate redcarpet
+    cd /vagrant
     bundle install
 fi
