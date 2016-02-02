@@ -17,6 +17,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-watch
+  - rubypants
 
 kramdown:
   auto_ids: true
