@@ -60,9 +60,7 @@ I changed the permissions in my ``AppManifest.xml`` from **Read** to **Write**:
 
 Sadly, I received the same error message. However, if you read the [MSDN Documentation on Developing Social Features in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163864.aspx), there is a section in there talking about user profiles:
 
-{% blockquote %}
-User Profiles (http://sharepoint/social/tenant) The permission request scope used to access all user profiles. Only the profile picture can be changed; all other user profile properties are read-only for apps for SharePoint. Apps that request rights for the User Profiles scope must be installed by a tenant administrator.
-{% endblockquote %}
+> User Profiles (http://sharepoint/social/tenant) The permission request scope used to access all user profiles. Only the profile picture can be changed; all other user profile properties are read-only for apps for SharePoint. Apps that request rights for the User Profiles scope must be installed by a tenant administrator.
 
 In a nutshell, I have to grant **Tenant** permissions to my app to be able to have my user follow a new site. Therefore, my new permissions look like the following:
 

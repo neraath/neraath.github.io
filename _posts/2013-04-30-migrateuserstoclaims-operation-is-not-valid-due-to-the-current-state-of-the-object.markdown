@@ -59,9 +59,7 @@ With that, if I changed the middle parameter from ``$true`` to ``$false``, the m
 
 Why did this happen? This was because my ``$acc`` user is my **farm account**. I'm also running my PowerShell session as my **farm account**. This is to ensure that I have full, unfettered access to the SharePoint Object Model and the Content Database. The middle parameter states (from [MSDN](http://msdn.microsoft.com/en-us/library/jj172686.aspx)):
 
-{% blockquote %}
-The **account** will be given the correct permissions to perform the operation. Should this permission be removed when the operation is complete.
-{% endblockquote %}
+> The **account** will be given the correct permissions to perform the operation. Should this permission be removed when the operation is complete.
 
 We definitely don't want this for the farm account. So, my updated code, for reference:
 
