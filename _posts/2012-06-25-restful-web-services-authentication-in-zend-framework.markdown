@@ -27,11 +27,11 @@ The business model our customer uses involves many API customer integrations. Wh
 
 <h3>OAuth</h3>
 
-{% pullquote %}
 
-They use an open protocol called <a href="http://oauth.net/" target="_blank">OAuth</a>. {" OAuth is a clever way of performing a handshake and passing signed messages between servers to obtain an access token to perform activities on behalf of the requestor. "} Your password is entered only at the site where the password is stored, yet the site requesting access will still be able to access your data in a secure way as if it were you accessing the data. 
 
-{% endpullquote %}
+They use an open protocol called <a href="http://oauth.net/" target="_blank">OAuth</a>.  OAuth is a clever way of performing a handshake and passing signed messages between servers to obtain an access token to perform activities on behalf of the requestor.  Your password is entered only at the site where the password is stored, yet the site requesting access will still be able to access your data in a secure way as if it were you accessing the data. 
+
+
 
 OAuth is the perfect solution to my authentication problem. There's just one issue: it takes time to setup and implement correctly. In no particular order, the steps include:
 <ul>

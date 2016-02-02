@@ -19,11 +19,11 @@ tags:
 
 I attended <a href="http://austincodecamp2012.com/" target="_blank">Austin Code Camp</a> a few weekends ago and had a blast! There were plenty of enthusiastic, passionate individuals gathered and ready to learn - the makings for a great one day conference. While there, I attended the session <em>Must-Know Design Patterns</em> by <a href="http://www.robvettor.com/" target="_blank">Rob Vettor</a>. In that session, he discussed several very useful patterns, including the <a href="http://en.wikipedia.org/wiki/Decorator_pattern" target="_blank">Decorator Pattern</a>, the <a href="http://www.oodesign.com/factory-pattern.html" target="_blank">Factory Pattern</a>, and numerous other useful patterns. In seeing his code samples for the factory pattern, I was a bit disappointed to see his entire block of <code>if/else if/else</code> statements simply moved from his business logic to the factory. While this is still technically the better approach than leaving it in business logic, I find there's a better way to do this. In fact, there's a <em>zero</em> case statement way of doing this in C#. If you're curious to find out how to create a factory without a single <code>if</code> or <code>switch</code> statement, read on. 
 <!--more-->
-{% pullquote %}
 
-If you've never heard of it, check out the <a href="http://www.antiifcampaign.com/" target="_blank">Anti If Campaign</a>. I wasn't aware of this until about a year ago, but prior to that I was already a practitioner of their preachings. {" The goal is simple: get rid of most (if not all) case statements in your code. "} Why? An increase in the number of case statements increases the branch (cyclomatic) complexity of your logic. You have to add more unit tests to ensure you hit everyone of those branches. It's far too often the case that your code isn't just a set of conditional statements - it has other logic surrounding it. It's messy, and it's poor design. 
 
-{% endpullquote %}
+If you've never heard of it, check out the <a href="http://www.antiifcampaign.com/" target="_blank">Anti If Campaign</a>. I wasn't aware of this until about a year ago, but prior to that I was already a practitioner of their preachings.  The goal is simple: get rid of most (if not all) case statements in your code.  Why? An increase in the number of case statements increases the branch (cyclomatic) complexity of your logic. You have to add more unit tests to ensure you hit everyone of those branches. It's far too often the case that your code isn't just a set of conditional statements - it has other logic surrounding it. It's messy, and it's poor design. 
+
+
 
 If you are truly paying attention to object-oriented design patterns, you'd realize there are ways for you to structure your code in a manner that minimizes or eliminates the need for conditional statements. Most people revolt when I make this assertion. Some of the arguments I've heard include:
 <ol>

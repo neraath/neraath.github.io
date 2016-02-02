@@ -29,9 +29,9 @@ The first in my lineup of conferences is <a href="http://www.agiledotnet.com/" t
 
 The other perks of this conference are really nifty. All attendees get a <em>free</em> (as in beer) subscription to <a href="http://www.codemag.com/" target="_blank">CODE Magazine</a>, 6 PMI PDUs (if you're a project management professional), <em>and</em> a <em>free</em> ticket to see the Astros beat the hell outta the Dodgers. Did I mention the plethora of free food and beverages at the event? <a href="http://www.improvingenterprises.com/" target="_blank">Improving</a> sure knows how to throw a party. 
 
-{% pullquote %}
-If you're interested in coming, go to <a href="http://www.agiledotnet.com" target="_blank">www.agiledotnet.com</a>. {" Use code CHRIS for 25% off the ticket price. "} It's the best value Agile conference you'll find in Texas. 
-{% endpullquote %}
+
+If you're interested in coming, go to <a href="http://www.agiledotnet.com" target="_blank">www.agiledotnet.com</a>.  Use code CHRIS for 25% off the ticket price.  It's the best value Agile conference you'll find in Texas. 
+
 
 <h2>SharePoint Saturday Houston</h2>
 

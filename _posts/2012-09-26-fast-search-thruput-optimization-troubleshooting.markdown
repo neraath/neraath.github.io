@@ -23,9 +23,9 @@ The last couple of weeks in September I was tasked with identifying and fixing a
 
 FAST Search was originally developed by a company called FAST Search and Transfer and was acquired by Microsoft in 2008. The acquisition was a strategic move on Microsoft's part to enter the enterprise search market. Although Microsoft had their own search products (Microsoft Search Server and Search Server 2010), the scalability and feature sets provided with FAST Search far outweigh that of Microsoft's search products. Unfortunately, these extra features come at a premium, but are truly necessary if you really want a rich search experience for users. 
 
-{% pullquote %}
-{" Architecturally, FAST search components are very easy to configure and scale out to increase not only query thruput, but also crawling and indexing thruput and capacity. "} This is done by using a matrix configuration where servers are arranged into rows and columns. When you read the technical documentation, by adding rows, you increase redundancy of services, but also query capacity. However, when you add columns, you increase indexing capacity and thruput. Discussing the nuances of search rows and columns is another blog post in itself, so I'll leave that for a future post.
-{% endpullquote %}
+
+Architecturally, FAST search components are very easy to configure and scale out to increase not only query thruput, but also crawling and indexing thruput and capacity. This is done by using a matrix configuration where servers are arranged into rows and columns. When you read the technical documentation, by adding rows, you increase redundancy of services, but also query capacity. However, when you add columns, you increase indexing capacity and thruput. Discussing the nuances of search rows and columns is another blog post in itself, so I'll leave that for a future post.
+
 
 Beyond simply adding servers to rows and columns, deciding which servers host which services involved in the content pipeline is extremely easy. All it takes is a configuration file change and issuing a single command across all servers in the FAST farm. You can also have multiple instances of the services to provide load balancing and high availability. How this works is also worthy of another blog post. 
 
@@ -54,9 +54,9 @@ The next book I started to read was <a href="http://amzn.com/0735662223" target=
 <li><a href="http://technet.microsoft.com/en-us/library/gg604768.aspx" target="_blank">Performance and Capacity Monitoring</a></li>
 </ul>
 
-{% pullquote left %}
-One of the best resources I found was on <a href="http://www.youtube.com/watch?v=zoebkKWE_zs" target="_blank">YouTube</a>, titled <a href="http://www.youtube.com/watch?v=zoebkKWE_zs" target="_blank">Troubleshooting FAST Search and the SharePoint Crawler - An Operational Viewpoint</a> by <a href="http://blogs.msdn.com/b/kristopherloranger/" target="_blank">Kristopher Loranger</a> from Microsoft. One of the best tidbits in the video was this: {" a good crawl rate should be between 45 and 60 documents per second. "} So, I had a goal to shoot for. But, most importantly, he gave a simple trick to help identify where the bottleneck is: temporarily suspend indexing. By suspending indexing and performing another full crawl, you can identify whether the problem is on the SharePoint infrastructure, or on the FAST infrastructure side. If there is speedup after suspending indexing, the problem is FAST. Otherwise, the problem is SharePoint. A pretty simple technique to keep in your back pocket.
-{% endpullquote %}
+
+One of the best resources I found was on <a href="http://www.youtube.com/watch?v=zoebkKWE_zs" target="_blank">YouTube</a>, titled <a href="http://www.youtube.com/watch?v=zoebkKWE_zs" target="_blank">Troubleshooting FAST Search and the SharePoint Crawler - An Operational Viewpoint</a> by <a href="http://blogs.msdn.com/b/kristopherloranger/" target="_blank">Kristopher Loranger</a> from Microsoft. One of the best tidbits in the video was this:  a good crawl rate should be between 45 and 60 documents per second.  So, I had a goal to shoot for. But, most importantly, he gave a simple trick to help identify where the bottleneck is: temporarily suspend indexing. By suspending indexing and performing another full crawl, you can identify whether the problem is on the SharePoint infrastructure, or on the FAST infrastructure side. If there is speedup after suspending indexing, the problem is FAST. Otherwise, the problem is SharePoint. A pretty simple technique to keep in your back pocket.
+
 
 The best article I found on the TechNet site was that on <a href="http://technet.microsoft.com/en-us/library/gg604768.aspx" target="_blank">Performance and Capacity Monitoring</a>. This told me specifically which performance counters to monitor, and how to use that information to identify bottlenecks. I kept referring back to this article when setting up Performance Monitor on each of the various servers. 
 
@@ -111,9 +111,9 @@ As mentioned above, I kept referring back to the <a href="http://technet.microso
 
 <h3>Understand the Data Flow before Understanding the Statistics</h3>
 
-{% pullquote %}
-Before we began to look at the statistics, it's important to understand how the content flows from end-to-end. {" A problem earlier in the content pipeline can manifest bad / inappropriate metrics further down the line."} So, identifying the bottleneck where it really is (as early as possible) is truly important. The steps of content processing is best represented by this image found on <a href="http://technet.microsoft.com/en-us/library/gg604768.aspx" target="_blank">TechNet</a>:
-{% endpullquote %}
+
+Before we began to look at the statistics, it's important to understand how the content flows from end-to-end.  A problem earlier in the content pipeline can manifest bad / inappropriate metrics further down the line. So, identifying the bottleneck where it really is (as early as possible) is truly important. The steps of content processing is best represented by this image found on <a href="http://technet.microsoft.com/en-us/library/gg604768.aspx" target="_blank">TechNet</a>:
+
 
 <img src="/images/posts/2012-09-26-fast-search-thruput-optimization-troubleshooting/fast-content-flow.png" alt="FAST Content Flow" />
 
@@ -233,9 +233,9 @@ Looking at our crawl times now, I'm <em>much</em> happier to see incremental cra
 
 <h2>Admin Reports and Conclusion</h2>
 
-{% pullquote %}
-In short, troubleshooting this issue was no walk in the park. FAST is not an easy system to understand. Throwing SharePoint into the mix (which is just as large and difficult) only makes matters worse. {" However, by paying close attention to the details and studying how your system is behaving, you'll eventually find what you're looking for. "}
-{% endpullquote %}
+
+In short, troubleshooting this issue was no walk in the park. FAST is not an easy system to understand. Throwing SharePoint into the mix (which is just as large and difficult) only makes matters worse.  However, by paying close attention to the details and studying how your system is behaving, you'll eventually find what you're looking for. 
+
 
 &lt;rant&gt;
 Finding the information on what to look for, though, can be just as challenging. I found that things really started to take off for me only <em>after</em> I started reading the Microsoft FAST book. TechNet had the required documentation that I needed to understand how to diagnose the problem. Yet, I found that finding information on TechNet was <em>extremely</em> challenging. For a product that can cost in the tens of thousands of dollars for just a small environment, I'd really like to see Microsoft invest some time in really understanding how end users look through their documentation, and really improve it. The "auto-hiding" links in the navigation heiarchy on the left of the page suck. What sucks even more? Not having an automatically expandable hierarchy so I can browse the hierarchy of contents. The fact that it would take me 15-20 clicks to get to the bottom of the FAST documentation is absurd - I should be able to have a full ToC - not a ToC at every major section all the way to the bottom of the stack.

@@ -26,11 +26,11 @@ Last night I spent all evening (and well into the night) working on a fix for a 
 
 This upload problem was complicated slightly by the fact that we are uploading files on a different domain from the site being hosted (e.g. the customer-facing web site is on www.imagehost.com and the upload host is photos.imagehost.com). The reason for this is the server that holds the files and needs to be accessed by employees is different from the server hosting the primary customer-facing web site. The customer was not interested in setting up a web service on the customer-facing web site to act as a proxy to the destination web service, so some work had to be done to investigate how to handle cross-domain requests with JavaScript.
 
-{% pullquote %}
 
-All modern browsers implement the <a href="https://developer.mozilla.org/en/Same_origin_policy_for_JavaScript" target="_blank">Same Origin Policy</a>. {" This policy was introduced as a means to help secure browsers by preventing content sharing by unrelated sites in order to maintain confidentiality and prevent loss of data. "} In this context, this means that my standard <code>XmlHttpRequests</code> that are used to invoke the AJAX calls to my remote web service will be blocked by the browser because the destination origin does not match the source web site origin. 
 
-{% endpullquote %}
+All modern browsers implement the <a href="https://developer.mozilla.org/en/Same_origin_policy_for_JavaScript" target="_blank">Same Origin Policy</a>.  This policy was introduced as a means to help secure browsers by preventing content sharing by unrelated sites in order to maintain confidentiality and prevent loss of data.  In this context, this means that my standard <code>XmlHttpRequests</code> that are used to invoke the AJAX calls to my remote web service will be blocked by the browser because the destination origin does not match the source web site origin. 
+
+
 
 There have been two attempts to circumvent this problem: <a href="http://en.wikipedia.org/wiki/Cross-Origin_Resource_Sharing" target="_blank">Cross-Origin Resource Sharing (CORS)</a> and <a href="http://en.wikipedia.org/wiki/JSONP" target="_blank">JSONP</a>. There are legitimate use cases (such as the one I'm dealing with) where submitting requests to a remote domain without proxying is preferred. Think about how web mashups work - they involve a <strong>huge</strong> amount of cross-site requests, so being able to invoke remote services <strong>without</strong> frames is essential.
 
@@ -54,11 +54,11 @@ $('#fileupload').fileupload('option', {
 
 I then attempted to upload a file that would take a few seconds to upload (~5MB in size). As expected, the progress bar zipped to 100% and the page hung for several seconds while the upload finished in the background. When I reloaded the page and uploaded the same file without issuing the above JavaScript, the progress bar advanced as I would expect it to, and when it reached 100% the <code>done</code> action fired. 
 
-{% pullquote left %}
 
-This comes back to the original problem with cross-domain requests with JavaScript. Effectively, my iFrame request is for a different origin than my source web site. {" The ability for the JavaScript driving the file upload control to monitor the progress of the upload in an iFrame is blocked by the browser in adherence to the Same Origin Policy. "} Therefore, the best the control can do is kick off the iFrame request in an asynchronous fashion, update the progress bar to 100%, and wait for the iFrame to finish loading. Thanks go to my good friend <a href="http://dataplex.org" target="_blank">Ben Floyd</a> for reminding me of this.
 
-{% endpullquote %}
+This comes back to the original problem with cross-domain requests with JavaScript. Effectively, my iFrame request is for a different origin than my source web site.  The ability for the JavaScript driving the file upload control to monitor the progress of the upload in an iFrame is blocked by the browser in adherence to the Same Origin Policy.  Therefore, the best the control can do is kick off the iFrame request in an asynchronous fashion, update the progress bar to 100%, and wait for the iFrame to finish loading. Thanks go to my good friend <a href="http://dataplex.org" target="_blank">Ben Floyd</a> for reminding me of this.
+
+
 
 I opted to drop the <code>forceIframeTransport</code> option and try to get things working using XHR.
 

@@ -13,9 +13,9 @@ categories:
 
 The last quarter I eased back on my speaking engagements, largely because I needed to spend more time with my family and because conferences are fairly light in the third quarter. Nevertheless, I woke up on January 1, 2013 to a rather pleasant e-mail - I had been awarded a [Microsoft MVP](http://www.microsoft.com/mvp) in ASP.Net/IIS. To say this came as a surprise would be a lie, but I had been skeptical if I was going to get the award, given how competitive the awards are. There tens of thousands of professionals all over the world vying for one of these awards, and in some categories (C# and SharePoint, in particular), you have to go through multiple vetting cycles before you end up receiving the award. 
 
-{% pullquote left %}
-For those unfamiliar, {" an MVP Award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. "}. No doubt, that's how I see myself (though a little more modest). I realize that there are some people who only care to get awards such as these as yet another way to pad the resume. Those individuals most definitely do what they do for the wrong reasons. 
-{% endpullquote %}
+
+For those unfamiliar,  an MVP Award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. . No doubt, that's how I see myself (though a little more modest). I realize that there are some people who only care to get awards such as these as yet another way to pad the resume. Those individuals most definitely do what they do for the wrong reasons. 
+
 
 I do what I do for a number of reasons. First, I love to hear myself talk. Just kidding. Those who know me know I can be (somewhat) shy in the company of others, and never as boisterous as some of those in a clique (I'm looking at you Devlin and Bud :-P). That said, I do love meeting new people. I've forged some really great relationships with people in the community that I would *love* to work with (and some of them now do!). Even if I never have that opportunity, being able to meet for beers after work with these people is a whole lot of fun. 
 
@@ -23,9 +23,9 @@ But, while meeting new people is fun, I consider speaking as a selfless act. I d
 
 How I View the Award
 --------------------
-{% pullquote right %}
-Some people see the award as an affirmation that they are the most elite, technically proficient individiuals in the world. I won't lie - that's how I've always percieved Microsoft MVPs. Some of them are stellar individuals who really are at the top of their game. However, to assume that I've reached the pinnacle of my technical abilities is far from the truth. {" I thought I was a hot shot coming into Improving Enterprises; working with such a talented, professional, and wonderful group of technologists and mentors has really helped me remain consistently modest about my technical abilities. "}
-{% endpullquote %}
+
+Some people see the award as an affirmation that they are the most elite, technically proficient individiuals in the world. I won't lie - that's how I've always percieved Microsoft MVPs. Some of them are stellar individuals who really are at the top of their game. However, to assume that I've reached the pinnacle of my technical abilities is far from the truth.  I thought I was a hot shot coming into Improving Enterprises; working with such a talented, professional, and wonderful group of technologists and mentors has really helped me remain consistently modest about my technical abilities. 
+
 
 In our field, there are experts, people who cannot achieve a level higher than they are already at. However, those individuals are experts on such a niche topic, that field itself is already evolved to its maximum potential, allowing for experts to finally attain their place. However, I see myself as extremely proficient in a lot of the areas I work - SharePoint, PHP, ASP.Net, and systems administration, in particular. That said, because each of those areas are so broad and have so many different uses, it's impossible for me to become an "expert" in these fields. It's hard for **anyone** to become an expert in these fields. If you come across anyone who claims to be an expert, I guarantee you'll find gaps in their knowledge somewhere. That's how I view experts - people who know everything there is to know. 
 

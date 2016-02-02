@@ -23,11 +23,11 @@ Let's put it bluntly - I was <strong>fat</strong>. Borderline obese, as a matter
 <li>Establish healthy lifestyle habits that will serve as a basis for lifelong change</li>
 </ul>
 
-{% pullquote %}
 
-The cornerstone of this being a success was diet. However, Melissa and I had tried <em>numerous</em> diets over our relationship, all of which resulted in immediate weight loss, then a seemingly-never-ending plateau. So, after Melissa did further research, she came across the Candida Yeast Free Diet. {" The core concept of the diet is simple: eliminate candida yeasts which prohibit the body from being able to properly digest food and lose weight. "} The basics were simple: cut out sugar, caffiene, alcohol, dairy, gluten, and yeast. This was <em>quite</em> a challenge, as we regularly consumed all of those ingredients. We recognized that sugar and alcohol were some of the biggest inhibitors of weight loss, so we were okay with cutting those. However, gluten, caffiene, and dairy were an integral part of our diets, past and present, and would be difficult. 
 
-{% endpullquote %}
+The cornerstone of this being a success was diet. However, Melissa and I had tried <em>numerous</em> diets over our relationship, all of which resulted in immediate weight loss, then a seemingly-never-ending plateau. So, after Melissa did further research, she came across the Candida Yeast Free Diet.  The core concept of the diet is simple: eliminate candida yeasts which prohibit the body from being able to properly digest food and lose weight.  The basics were simple: cut out sugar, caffiene, alcohol, dairy, gluten, and yeast. This was <em>quite</em> a challenge, as we regularly consumed all of those ingredients. We recognized that sugar and alcohol were some of the biggest inhibitors of weight loss, so we were okay with cutting those. However, gluten, caffiene, and dairy were an integral part of our diets, past and present, and would be difficult. 
+
+
 
 Melissa came across a highly recommended book, the <a href="http://amzn.com/0761527400" target="_blank">Complete Candida Yeast Guidebook</a> that would provide us the necessary instructions, guidance, <em>and</em> recipes to follow. The diet in the book was intriguing as it was borderline Vegan (though it did not restrict the consumption of meat). Melissa and I at that point had been eating strictly vegetarian, but had not made the plunge to go anywhere near Vegan - mainly because we liked our ice cream too much. :-P But, there were <em>plenty</em> of recipes that included a variety of vegetables, nuts, seeds, and grains that made for a wholesome and wonderful diet. 
 
