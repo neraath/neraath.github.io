@@ -1,20 +1,20 @@
 ---
 comments: true
-date: '2006-06-25 11:39:49'
+date: "2006-06-25 11:39:49"
 layout: post
-slug: toms-coming-to-college-station
+slug: "toms-coming-to-college-station"
 status: publish
-title: Tom's Coming to College Station
-wordpress_id: '4'
-categories:
-- personal
+title: "Tom's Coming to College Station"
+wordpress_id: "4"
+categories: 
+  - personal
+published: true
 ---
+
 
 My best friend Tom King and I had been planning on the possibility of having him coming down if one of our Cerberus clients ended up signing a complete network, VoIP, and internet deal with us. A BIG score for our company - but we are still in the works with them. The head honcho (at least the manager, not the owner) is really against change - especially when it comes to technology. I got this tip from one of the elderly workers who really does like technology, seemingly, and is really excited about the possibility of getting a better internet connection, etc. She told me that he absolutely hates technology and sticks to a policy of 
 
-{% blockquote %}
-If it ain't broke, don't fix it.
-{% endblockquote %}
+> If it ain't broke, don't fix it.
 
 Nevertheless, I have been working my ass off recently to try to get this contract with them, as it will finally launch us into the markets we've been trying to get into the past few months. It's taken a lot of research and mapping out of their buildings, but I have a fairly good idea of everything, and it's gonna cost them (and us) big bucks to get it done - but it'll be worth it.
 
