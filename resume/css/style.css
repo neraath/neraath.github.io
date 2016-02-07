@@ -1,0 +1,264 @@
+body
+{
+    margin: 0 auto;
+    font-family: 'PT Serif', 'Times New Roman', serif;
+}
+
+section
+{
+    border-bottom: 1px solid #aaa;
+}
+
+section#references,
+section#overview
+{
+    border-bottom: none;
+}
+
+nav#social
+{
+    height: 2em;
+    background-color: #E3EDED;
+    padding: 0.5em 0 0 0;
+    margin: 0;
+}
+
+#social ul
+{
+    width: 10em;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+#social li
+{
+    float: left;
+    margin: 0 0.25em;
+}
+
+#social li a img
+{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+h1
+{
+    font-family: 'Oswald', Calibri, Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about
+{
+    border-bottom: none;
+    text-align: center;
+    font-family: 'PT Serif', 'Times New Roman', serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding: 1em;
+}
+
+#about h1
+{
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0.25em 0;
+}
+
+#about img
+{
+    -moz-box-shadow: 5px 5px 5px #444;
+    -webkit-box-shadow: 5px 5px 5px #444;
+    box-shadow: 5px 5px 5px #444;
+}
+
+h4.when,
+.level
+{
+    background-color: #eee;
+    padding: 0.5em;
+    float: right;
+    margin: 0;
+}
+
+.about
+{
+}
+
+#employment ul li,
+#technical ul li,
+#extracurricular ul li,
+.projects ul li
+{
+    position: relative;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.5em;
+}
+
+#employment ul li.last,
+#technical ul li.last,
+#extracurricular ul li.last,
+.projects ul li.last
+{
+    border-bottom: none;
+}
+
+#employment ul,
+#technical ul,
+#extracurricular ul,
+.projects ul
+{
+    list-style-type: none;
+    padding: 0 1em;
+}
+
+#education
+{
+    padding-left: 1em;
+}
+
+#education h2,
+#education h3,
+#education h4
+{
+    margin: 0.25em 0;
+}
+
+summary
+{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+ul.highlights
+{
+    list-style-type: disc !important;
+}
+
+ul.highlights li
+{
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.projects h2
+{
+    text-align: center;
+}
+
+.technologies
+{
+    font-style: italic;
+    margin: 0;
+}
+
+.charts
+{
+    width: 100%;
+}
+
+#skills,
+#averageweeklywork
+{
+    width: 95%;
+}
+
+.clear
+{
+    clear: both;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover,
+a:active
+{
+    text-decoration: underline;
+}
+
+a img
+{
+    outline: none;
+    border: none;
+}
+
+#employment h2,
+#employment a
+{
+    color: #4B1F1E;
+}
+
+.projects h3,
+.projects a
+{
+    color: #6795BC !important;
+}
+
+blockquote 
+{ 
+    quotes: '"' '"'; 
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    padding: .75em .5em .75em 1em;
+    border-left: 0.5em solid #DDD;
+}
+
+blockquote:before
+{
+    content: "\201C";
+    margin-left: -.95em;
+    font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+    color: #999;
+    height: 0;
+    display: block;
+}
+
+blockquote p 
+{ 
+    font-size: 1em; 
+    line-height: 1.5; 
+    margin: 0.5em 0;
+}
+
+blockquote footer
+{
+    font-style: italic;
+}
+
+#overview div
+{
+    width: 32%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+#overview div.left
+{
+    float: left;
+}
+
+#overview div.middle
+{
+    float: left;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 0 1%;
+}
+
+#overview div.right
+{
+    float: left;
+}
+
+#overview strong
+{
+    font-size: 2em;
+    display: block;
+}
