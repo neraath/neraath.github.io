@@ -3,42 +3,42 @@ $(function () {
     $(document).ready(function() {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['C#', 'PHP', 'Dev/Ops', 'HTML'],
+            categories = ['Management','C#', 'Dev/Ops', 'HTML'],
             name = 'High-Level Tasks',
             data = [{
-                    y: 33.3,
+                    y: 20.0,
                     color: colors[0],
                     drilldown: {
-                        name: 'C# Work',
-                        categories: ['SharePoint', 'MSTest', 'ASP.Net', 'WCF', 'WIF', 'WPF'],
-                        data: [12.21, 4.95, 8.58, 3.3, 2.64, 1.65],
+                        name: 'Management',
+                        categories: ['Coaching','Code Reviews','ScrumMaster','Product Ownership / User Stories'],
+                        data: [8.00,6.00,3.00,3.00],
                         color: colors[0]
                     }
                 }, {
-                    y: 19.6,
+                    y: 50.0,
                     color: colors[1],
                     drilldown: {
-                        name: 'PHP Work',
-                        categories: ['Zend Framework', 'Behat', 'PHPUnit', 'CakePHP'],
-                        data: [11.76, 2.94, 1.96, 2.94],
+                        name: 'C# Work',
+                        categories: ['Backend','SpecFlow & NUnit','ASP.Net Web API','ASP.Net MVC','WIX','SharePoint'],
+                        data: [10.00,15.00,10.00,10.00,3.00,2.00],
                         color: colors[1]
                     }
                 }, {
-                    y: 40.1,
+                    y: 20.0,
                     color: colors[2],
                     drilldown: {
                         name: 'Dev/Ops',
-                        categories: ['SharePoint', 'Windows', 'Linux', 'Puppet', 'Cloud'],
-                        data: [11.228, 11.228, 10.426, 4.01, 3.208],
+                        categories: ['Windows','SharePoint'],
+                        data: [12.00,8.00],
                         color: colors[2]
                     }
                 }, {
-                    y: 7.0,
+                    y: 10.0,
                     color: colors[3],
                     drilldown: {
                         name: 'HTML/CSS',
-                        categories: ['HTML 5', 'XHTML 1.0', 'CSS', 'Javascript'],
-                        data: [2.59, 1.75, 2.1, 0.7],
+                        categories: ['HTML 5','CSS','Javascript'],
+                        data: [5.00,3.00,2.0],
                         color: colors[3]
                     }
                 }];
