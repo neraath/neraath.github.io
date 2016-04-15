@@ -19,6 +19,7 @@ else
 
     $HOME/.rbenv/bin/rbenv install 2.2.2
     $HOME/.rbenv/bin/rbenv global 2.2.2
+    $HOME/.rbenv/bin/rbenv rehash
 
     #Add rbenv to PATH
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> $HOME/.profile
