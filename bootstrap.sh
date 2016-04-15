@@ -27,6 +27,7 @@ else
 
     #own rbenv as the vagrant user
     sudo chown -Rf vagrant $HOME/.rbenv
+    source $HOME/.profile
 
     gem install jekyll bundler jekyll-tagging jekyll-paginate redcarpet
     cd /vagrant
