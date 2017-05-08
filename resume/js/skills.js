@@ -10,7 +10,7 @@ $(function () {
                 text: 'Skill Rating (out of 10)'
             },
             xAxis: {
-                categories: ['C#', 'PHP', 'ASP.Net', 'SQL', 'SharePoint', 'HTML', 'CSS', 'Javascript', 'Agile'],
+                categories: ['C#', 'Agile', 'ASP.Net', 'SQL', 'SharePoint', 'HTML', 'CSS', 'Javascript' ],
                 title: {
                     text: null
                 }
