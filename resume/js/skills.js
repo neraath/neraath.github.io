@@ -10,7 +10,7 @@ $(function () {
                 text: 'Skill Rating (out of 10)'
             },
             xAxis: {
-                categories: ['C#', 'Agile', 'ASP.Net', 'SQL', 'SharePoint', 'HTML', 'CSS', 'Javascript' ],
+                categories: ['C#', 'Agile / Work Management', 'ASP.Net', '(no)SQL', 'SharePoint', 'HTML', 'Leadership / People Management', 'CSS', 'Javascript' ],
                 title: {
                     text: null
                 }
@@ -46,7 +46,7 @@ $(function () {
             },
             series: [{
                 name: 'Skill Level',
-                data: [ 8.0, 8.0, 7.0, 6.0, 6.0, 6.0, 5.0, 5.0 ]
+                data: [ 8.0, 8.0, 7.0, 6.0, 6.0, 6.0, 5.0, 5.0, 5.0 ]
             }]
         });
     });

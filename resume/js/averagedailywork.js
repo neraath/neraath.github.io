@@ -10,35 +10,35 @@ $(function () {
                     color: colors[0],
                     drilldown: {
                         name: 'Management',
-                        categories: ['Coaching','Code Reviews','ScrumMaster','Product Ownership / User Stories'],
-                        data: [8.00,6.00,3.00,3.00],
+                        categories: ['Coaching / Mentoring','Product Strategy','Product Ownership / User Stories'],
+                        data: [10.00,3.00,7.00],
                         color: colors[0]
                     }
                 }, {
                     y: 50.0,
                     color: colors[1],
                     drilldown: {
-                        name: 'C# Work',
-                        categories: ['Backend','SpecFlow & NUnit','ASP.Net Web API','ASP.Net MVC','WIX','SharePoint'],
-                        data: [10.00,15.00,10.00,10.00,3.00,2.00],
+                        name: 'Development',
+                        categories: ['SpecFlow / MSTest / Selenium','Code Reviews','Backend / ASP.Net Web API','DocumentDB','Azure Service Bus'],
+                        data: [10.00,15.00,15.00,5.00,5.00],
                         color: colors[1]
                     }
                 }, {
-                    y: 20.0,
+                    y: 16.0,
                     color: colors[2],
                     drilldown: {
                         name: 'Dev/Ops',
-                        categories: ['Windows','SharePoint'],
-                        data: [12.00,8.00],
+                        categories: ['Azure','VSTS CI/CD'],
+                        data: [8.00,8.00],
                         color: colors[2]
                     }
                 }, {
-                    y: 10.0,
+                    y: 14.0,
                     color: colors[3],
                     drilldown: {
                         name: 'HTML/CSS',
-                        categories: ['HTML 5','CSS','Javascript'],
-                        data: [5.00,3.00,2.0],
+                        categories: ['HTML 5','CSS','AngularJS','Jasmine'],
+                        data: [3.00,1.00,5.0,5.0],
                         color: colors[3]
                     }
                 }];
